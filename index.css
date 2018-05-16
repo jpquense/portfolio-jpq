@@ -1,0 +1,88 @@
+body { 
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-seri;
+  margin-top: 0px;
+}
+
+.images {
+  max-width: 800px;
+}
+  
+.intro {
+  text-align: center;
+  padding-top: 2.5em;
+  padding-bottom: 2em;
+}
+  
+.intro > h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+  
+.intro > p {
+  color: yellow;
+}
+
+.white-accent {
+  color: white;
+}
+
+.skills > header > h2 {
+  margin-top: 1.25em;
+  color: rgb(23, 162, 184);
+
+}
+
+.skills ul {
+  text-align: center;
+  list-style: none;
+}
+
+.skills li {
+  font-size: 30;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.skills-image > img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+#bio > header {
+  margin-top: 1.5em;
+  color: rgb(23, 162, 184);
+
+}
+
+#bio ul {
+  list-style: none;
+}
+
+#bio li {
+  font-size: 30;
+  font-weight: bold;
+  color: grey;
+}
+
+#portfolio > header > h2 {
+  color: rgb(23, 162, 184);
+}
+
+#portfolio > header > p {
+  color: grey;
+}
+
+.project {
+  border: 2px solid grey;
+  margin: 15px;
+  padding: 10px;
+}
+
+.project img {
+  padding: 25px;
+}
+
+.center-text {
+  text-align: center;
+}
